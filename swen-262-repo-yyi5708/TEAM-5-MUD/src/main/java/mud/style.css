@@ -1,0 +1,108 @@
+.root {
+    -fx-font-family: 'Lucida Console', monospace;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+}
+
+.vbox,
+.hbox {
+    -fx-spacing: 15px;
+    -fx-padding: 15px;
+    -fx-alignment: center;
+}
+
+.text {
+    -fx-font-size: 15px;
+    -fx-fill: black;
+}
+
+.text.title {
+    -fx-font-size: 50px;
+    -fx-fill: black;
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 15px;
+}
+
+.scene {
+    -fx-background-color: white;
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: black;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+}
+
+.button-bar .button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.grid-pane {
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+    -fx-padding: 15px;
+}
+
+.text-field,
+.password-field,
+.text-area {
+    -fx-font-size: 15px;
+    -fx-padding: 15px;
+    -fx-border-color: black;
+    -fx-border-radius: 15px;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+}
+
+.border-pane {
+    -fx-padding: 15px;
+}
+
+.choice-box {
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.choice-box .label {
+    -fx-font-size: 15px;
+    -fx-text-fill: black;
+}
+
+.alert {
+    -fx-background-color: white;
+}
+
+.alert .header-panel .label {
+    -fx-text-fill: white;
+}
+
+.alert .content.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: black;
+}
+
+.alert .button-bar .container {
+    -fx-background-color: white;
+}
+
+.alert .button-bar .container .button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
